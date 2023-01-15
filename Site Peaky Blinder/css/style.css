@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('../images/Banner_peakyblinders.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 7rem;
+    overflow: hidden; 
+}
+
+.cabecalho{
+    background-color: #151723;
+}
+
+.content_navigation{ 
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_navigation figure .logo img{
+    width: 20rem;
+}
+
+.content_navigation .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_navigation .navigation ul{
+    display: flex;
+    align-items: center;
+    height: 100%;  
+}
+
+.content_navigation .navigation li{
+    list-style: none;
+    font-size: 1.7rem;
+    margin: 0 2rem;  
+}
+
+.content_navigation .navigation #btn{
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 4rem;
+    background-color: red;
+    color: white;
+    margin-right: 1rem;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_navigation .navigation #btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.content_navigation .navigation #btn:hover{
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 4rem;
+    background-color: rgb(252, 62, 62);
+    color: white;
+    margin-right: 1rem;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_navigation .navigation #btn-2{
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: #151723;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.318);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_navigation .navigation #btn-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.content_navigation .navigation #btn-2:hover{
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: #232636;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.686);
+    cursor: pointer;
+}
+
+.content_navigation .navigation li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+main{
+    padding: 12rem 8rem;
+    color: #FFF;
+}
+
+main .indentification_logo_content figure img{
+    width: 50rem;
+}
+
+main .informations_content{
+    width: 45rem;
+    margin-top: 5rem;
+}
+
+main .informations_content header h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+main .informations_content #ano{
+    font-size: 1.6rem;
+    color: #747688;
+    margin-bottom: 2rem;
+}
+
+main .informations_content #ano span{
+    font-size: 1.5rem;
+    padding: 0.2px;
+    margin: 0 2px;
+    color: #747688;
+    margin-bottom: 2rem;
+    border: 1px solid #747688;
+}
+
+main .informations_content #descricao{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+main .informations_content p{
+    font-size: 1.6rem;
+    margin: 0.5rem;
+}
+
+main .informations_content p span{
+    color: #747688;
+}
+    

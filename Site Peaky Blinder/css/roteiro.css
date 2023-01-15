@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #161720;
+}
+
+.intro{
+    background-image: url('../images/roteiro/bg_roteiro.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.intro .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .imgs #logo_intro{
+    width: 3rem;
+    margin: 0 2rem;
+}
+
+.intro .imgs img{
+    width: 20rem;
+}
+
+
+.intro .roteiro {
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .roteiro h1{
+    font-size: 10.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.2rem;
+}
+.intro .roteiro img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+
+.intro .roteiro p{
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+.intro .roteiro div{   
+    display: flex;
+    justify-content: center;
+}
+
+.intro .roteiro #icon_espingarda{
+    width: 5rem;
+}
+
+/*/////////////////////T1///////////////////////////*/
+
+.temporada1{
+    background-image: url('../images/roteiro/bg_temp-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.temporada1 .temp-1 {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+ 
+.temporada1 .temp-1 h1{
+    font-size: 8.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.temporada1 .temp-1 img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+ 
+.temporada1 .temp-1 p{
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.temporada1 #t1{
+    font-size: 1.5rem;
+    margin-inline: 5rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+.conteudo_temp-1{
+    background-image: url('../images/roteiro/bg_conteudo_temp-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.conteudo_temp-1 .conteudo_t1 {
+    padding: 4rem;
+}
+
+.conteudo_temp-1 .conteudo_t1 figure{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_temp-1 .conteudo_t1 figure img{
+    width: 25rem;
+
+}
+
+.conteudo_temp-1 .conteudo_t1 figure #icon_boina{
+    width: 6rem;
+}
+
+.conteudo_temp-1 .conteudo_t1 .text-t1{
+    width: 45%;
+}
+
+.conteudo_temp-1 .conteudo_t1 .text-t1 p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+/*/////////////////////T2///////////////////////////*/
+
+.temporada2{
+    background-image: url('../images/roteiro/bg_temp-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.temporada2 .temp-2 {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+ 
+.temporada2 .temp-2 h1{
+    font-size: 8.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.temporada2 .temp-2 img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+ 
+.temporada2 .temp-2 p{
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.temporada2 #t2{
+    font-size: 1.5rem;
+    margin-inline: 5rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+.conteudo_temp-2{
+    background-image: url('../images/roteiro/bg_conteudo_temp-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.conteudo_temp-2 .conteudo_t2{
+    padding: 4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.conteudo_temp-2 .conteudo_t2 figure{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_temp-2 .conteudo_t2 figure img{
+    width: 25rem;
+    margin-right: 1rem;
+
+}
+
+.conteudo_temp-2 .conteudo_t2 figure #icon_cigarro{
+    width: 6rem;
+}
+
+.conteudo_temp-2 .conteudo_t2 .text-t2{
+    width: 45%; 
+}
+
+.conteudo_temp-2 .conteudo_t2 .text-t2 p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+/*/////////////////////T3///////////////////////////*/
+
+.temporada3{
+    background-image: url('../images/roteiro/bg_temp-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.temporada3 .temp-3 {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+ 
+.temporada3 .temp-3 h1{
+    font-size: 8.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.temporada3 .temp-3 img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+ 
+.temporada3 .temp-3 p{
+    font-size: 2.0rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.temporada3 #t3{
+    font-size: 1.5rem;
+    margin-inline: 5rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+.conteudo_temp-3{
+    background-image: url('../images/roteiro/bg_conteudo_temp-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.conteudo_temp-3 .conteudo_t3 {
+    padding: 4rem;
+}
+
+.conteudo_temp-3 .conteudo_t3 figure{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_temp-3 .conteudo_t3 figure img{
+    width: 25rem;
+
+}
+
+.conteudo_temp-3 .conteudo_t3 figure #icon_coroa{
+    width: 6rem;
+}
+
+.conteudo_temp-3 .conteudo_t3 .text-t3{
+    width: 45%;
+}
+
+.conteudo_temp-3 .conteudo_t3 .text-t3 p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+/*/////////////////////T4///////////////////////////*/
+
+.temporada4{
+    background-image: url('../images/roteiro/bg_temp-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.temporada4 .temp-4 {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+ 
+.temporada4 .temp-4 h1{
+    font-size: 8.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.temporada4 .temp-4 img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+ 
+.temporada4 .temp-4 p{
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.temporada4 #t4{
+    font-size: 1.5rem;
+    margin-inline: 5rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+.conteudo_temp-4{
+    background-image: url('../images/roteiro/bg_conteudo_temp-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.conteudo_temp-4 .conteudo_t4{
+    padding: 4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.conteudo_temp-4 .conteudo_t4 figure{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_temp-4 .conteudo_t4 figure img{
+    width: 25rem;
+    margin-right: 1rem;
+
+}
+
+.conteudo_temp-4 .conteudo_t4 figure #icon_relogio{
+    width: 6rem;
+}
+
+.conteudo_temp-4 .conteudo_t4 .text-t4{
+    width: 45%; 
+}
+
+.conteudo_temp-4 .conteudo_t4 .text-t4 p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+/*/////////////////////T5///////////////////////////*/
+
+.temporada5{
+    background-image: url('../images/roteiro/bg_temp-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.temporada5 .temp-5 {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+ 
+.temporada5 .temp-5 h1{
+    font-size: 8.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.temporada5 .temp-5 img{
+    width: 65rem;
+    margin-bottom: 1.2rem;
+}
+ 
+.temporada5 .temp-5 p{
+    font-size: 2.0rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.temporada5 #t5{
+    font-size: 1.5rem;
+    margin-inline: 5rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+.conteudo_temp-5{
+    background-image: url('../images/roteiro/bg_conteudo_temp-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.conteudo_temp-5 .conteudo_t5 {
+    padding: 4rem;
+}
+
+.conteudo_temp-5 .conteudo_t5 figure{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_temp-5 .conteudo_t5 figure img{
+    width: 25rem;
+
+}
+
+.conteudo_temp-5 .conteudo_t5 figure #icon_revolver{
+    width: 6rem;
+}
+
+.conteudo_temp-5 .conteudo_t5 .text-t5{
+    width: 45%;
+}
+
+.conteudo_temp-5 .conteudo_t5 .text-t5 p{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
