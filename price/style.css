@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    background-color: #E6EFF5;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 635px;
+    height: 475px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px;
+}
+
+.community{
+    padding: 4rem;
+}
+
+.community header h1{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #2AB3B1;
+
+    margin-bottom: 2.4rem;
+}
+
+.community #p_um{
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    color: #C0DF33;
+    margin-bottom: 1.1rem;
+}
+
+.community p{
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    color: #9AA7BE;   
+}
+
+.second_part{
+    display: flex;
+    
+    background: #2AB3B1;
+    border-radius: 0px 8px 8px 8px;
+
+}
+
+.second_part .subscription{
+    padding: 4rem;
+}
+
+.second_part .subscription header h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+    
+    color: #FFFFFF;
+    margin-bottom: 1.8rem;
+}
+
+.second_part .subscription .price{
+    display: flex;
+    align-items: center;
+}
+
+.second_part .subscription .price #preco{
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin-right: 1.1rem;
+
+    color: #FFFFFF;
+
+}
+
+.second_part .subscription .price #mes{
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.second_part .subscription p{
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    color: #FFFFFF;
+    margin-bottom: 2.6rem;
+}
+
+.second_part .subscription button{
+    Width: 23.7rem;
+    Height: 4.8rem;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    border: none;
+}
+
+.second_part .subscription button:hover{
+    Width: 23.7rem;
+    Height: 4.8rem;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+
+    background: #7edf33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    border: none;
+}
+
+.second_part .why_us{
+    padding: 4rem;
+    background-color: #4ABFBD;
+    width: 100%;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.second_part .why_us header h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    color: #FFFFFF;
+    margin-bottom: 1.8rem;
+}
+
+.second_part .why_us p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 376px){
+    body{
+        padding: 72px;
+    }
+
+    section{
+        width: 311px;
+        height: 722px;
+        
+    }
+
+    .community{
+        padding: 2.4rem;
+    }
+
+    .community header h1{
+        font-weight: 700;
+        font-size: 2.0rem;
+        color: #2AB3B1;
+    
+        margin-bottom: 2.4rem;
+    }
+    
+    .community #p_um{
+        font-weight: 700;
+        font-size: 1.5rem;
+    
+        color: #C0DF33;
+        margin-bottom: 1.1rem;
+    }
+
+    .community p{
+        font-weight: 400;
+        font-size: 1.5rem;
+    
+        color: #9AA7BE;   
+    }
+
+    .second_part{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .second_part .subscription{
+        padding: 2.4rem;
+    }
+
+    .second_part .why_us{
+        padding: 2.4rem;
+        background-color: #4ABFBD;
+        width: 100%;
+        border-radius: 0 0 8px 8px;
+    }
+}

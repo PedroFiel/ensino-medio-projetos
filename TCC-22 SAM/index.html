@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/boot.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <title>Sam</title>
+</head>
+
+<body>
+
+    <header id="header">
+            <a class="logo" href="#home">
+                <img src="img/icones/robo.png" alt="Robo">
+            </a>
+            <nav id="nav">
+                <button id="btn-mobile" onclick="toggleMenu()">
+                    <img id="abrirmenu" src="img/icones/menulistra.png" alt="">
+                </button>
+                <ul id="menu" class="closeMenu" role="menu">
+                    <li><a href="#1" onclick="toggleMenu()">Objetivo</a></li>
+                    <li><a href="#2" onclick="toggleMenu()">Publico Alvo</a></li>
+                    <li><a href="#3" onclick="toggleMenu()">Custos</a></li>
+                    <li><a href="#4" onclick="toggleMenu()">Diferencial</a></li>
+                    <li><a href="#5" onclick="toggleMenu()">Bibliografia</a></li>
+                  </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <div class="inicio_txt">
+                <h1>Security Assistent Mobile</h1>
+                <p>A segurança da sua casa nhas suas mãos!</p>
+                <a href="https://youtu.be/WJtQmbA7-dQ">Acesse o Vídeo!!</a>
+            </div>
+
+            <div class="inicioimg">
+                <img src="img/icones/Carrinho.png" alt="">
+            </div>
+            
+        </section>
+        <hr>
+        
+        <section id="1" class="objetivo">
+            <header>
+                <h1>Objetivo</h1>
+            </header>
+
+            <div class="obj_cont">
+                <div class="obj_1">
+                    <h1>Nosso objetivo de trabalho é produzir um assistente de segurança.
+                    </h1>
+                    <p>Sua praticidade está em andar de forma autônoma pelo local desejado
+                        e vigiar o ambiente.</p>
+                </div>
+                <div class="obj_img">
+                    <img src="img/icones/alvo.png" alt="">
+                </div>
+                <div class="obj_2">
+                    <h1>O SAM realiza rotas de patrulha sem auxílio humano.</h1>
+                    <p>Com um custo-benefício
+                        mais acessível, o conforto e a confiança dentro de casa
+                        sem infringir sua privacidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="2" class="publico_alvo">
+            <div class="publico_cont">
+                <div class="publico_p1">
+                    <header><h1>Público Alvo</h1></header>
+                    <img src="img/icones/homem.png" alt="">
+                </div>
+
+                <div class="publico_cont2">
+                    <div  class="publico_p2">
+                        <header>
+                            <p><img src="img/icones/robo.png" alt=""> Rodrigo Laurintino e
+                            Pedro Fiel</p>
+                            <small>Managers/Developers</small>
+                        </header>
+                        <p>O projeto foi elaborado pela segurança dos nossos clientes.
+                        A segurança autônoma torna o alcance do SAM para muitos públicos.</p>
+                    </div>
+                    <div class="publico_p2">
+                        <header>
+                            <p><img src="img/icones/robo.png" alt=""> Danilo Silva e
+                           Mariana Laines</p>
+                            <small>Developers</small>
+                        </header>
+                        <p>Seja
+                        a necessidade em casas, condomínios e pensado principalmente para o cuidado de idosos, deficientes e pessoas com limitação de conhecimento tecnológico. Já que o SAM possui uma simples funcionalidade.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="3" class="custos">
+            <header>
+                <h1>Custos</h1>
+                <p>Componentes do Security Assistent Mobile</p>
+            </header>
+
+            <div class="custo_cont">
+                <div class="custo1">
+                    <img src="img/custos/ArduinoFoto.png" alt="">
+                    <p id="p1">Placa Arduino</p>
+                    <p>R$80,00</p>
+                </div>
+                <div class="custo1">
+                    <img src="img/custos/Motor Ponte H Foto.png" alt="">
+                    <p id="p1">Motores Ponte H</p>
+                    <p>R$29,00</p>
+                </div>
+                <div class="custo1">
+                    <img src="img/custos/UltrassônicoFoto.png" alt="">
+                    <p id="p1">Sensor Ultrassônico</p>
+                    <p>R$25,00</p>
+                </div>
+                <div class="custo1">
+                    <img src="img/custos/ServomotorFoto.png" alt="">
+                    <p id="p1">Micro Servomotor</p>
+                    <p>R$15,00</p>
+                </div>
+                <div class="custo1">
+                    <img src="img/custos/ESP32-CAMFoto.png" alt="">
+                    <p id="p1">Placa ESP32-CAM</p>
+                    <p>R$107,00</p>
+                </div>
+                <div class="custo1">
+                    <img src="img/custos/ReconhecimentoDeVozFoto.png" alt="">
+                    <p id="p1">Módulo de <br>Reconhecimento de Voz</p>
+                    <p>R$250,00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="4" class="diferencial">
+            <header>
+                <h1>Diferencial</h1>
+                <p>Funcionamento do projeto  <br> e o diferencial</p>
+            </header>
+
+            <div class="diferencial_cont">
+                <div class="dif_img">
+                    <img src="img/icones/Carrinho.png" alt="">
+                </div>
+
+                <div class="dif_txt">
+                    <p><strong>O SAM</strong> será responsável pela patrulha do estabelecimento escolhido pelo cliente, terá reconhecimento de voz para palavras-chave como <strong>comandos de gravação</strong> ou <strong>pedido de socorro</strong>, assim que reconhecer pedido de ajuda, ele <strong>enviará um e-mail e SMS para o celular do usuário.</strong> Além do reconhecimento de voz para os comandos, o assistente também realizará <strong>mapeamento do local</strong> e fará o <strong>monitoramento pelo ambiente de forma autônoma.</strong></p>
+                    <p>SAM possui um <strong>tamanho discreto, preço acessível</strong> comparado aos demais, como o ”Astro” da Amazon, além dos <strong>comandos de voz</strong> que <strong>facilita</strong> na hora de <strong>reconhecer</strong> a <strong>necessidade do cliente.</strong></p>
+                </div>
+            </div>
+
+            <div class="dif_img2">
+            <img src="img/icones/robo.png" alt="">
+            </div>
+        </section>
+
+        <section id="5" class="bibliografia">
+            <header>
+                <h1>Bibliografia</h1>
+                <p>A base da criação do SAM</p>
+            </header>
+
+            <div class="bibli_img">
+                <img src="img/icones/LogoFilipeFlop.png" alt="">
+                <img src="img/icones/LogoSeuRobô.png" alt="">
+                <img src="img/icones/LogoUnasp.png" alt="">
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>Todos os direitos reservados © SAM 2022</p>
+    </footer>
+
+
+      <!-- ScrollReaveal Lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

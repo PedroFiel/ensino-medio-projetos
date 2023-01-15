@@ -1,0 +1,164 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+:root{
+      --Very-pale-blue: #f5f7ff;
+      --Desaturated-blue: #7280a7;
+      --Dark-blue: #1f2f56;
+      --background: #E0E8FF;
+      --blue-buton: #382AE1;
+}
+
+html{
+      font-size: 62.5%;
+}
+
+body{
+      font-family: 'Red Hat Display';
+     padding: 101px 24px;
+     height: 100vh; 
+     background-color: var(--background);
+     background-image: url(images/pattern-background-desktop.svg);
+     background-repeat: no-repeat; 
+     overflow: hidden; 
+     
+     display: flex;
+     justify-content: center;  
+     align-items: center;  
+}
+
+section{
+      min-width: 32.7rem;
+      max-width: 41rem;
+      min-height: 567px;
+      background-color: #FFF;
+      box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+      border-radius: 20px;
+      
+}
+
+section figure .img-1{
+      width: 100%;
+      border-radius: 20px 20px 0px 0px;
+}
+
+.info .description{
+      text-align: center;
+      
+      display: flex;
+      flex-direction: column;
+}
+
+.info .description h1{
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: var(--Dark-blue);
+      margin: 32px 0px 16px;
+}
+
+.info .description p{
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: var(--Desaturated-blue);
+}
+
+.info .plan{
+      min-width: 27.9rem;
+      min-height: 8.1rem;
+      background-color: var(--Very-pale-blue);
+      border-radius: 1.1rem;
+      margin: 24px;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.info .plan .plan-type{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.info .plan .plan-type figure{
+      width: 4.8rem;
+      margin-right: 2rem;
+}
+
+.info .plan .plan-type .plan-type--description h1{
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: var(--Dark-blue);
+}
+
+.info .plan .plan-type .plan-type--description p{
+      font-weight: 500;
+      font-size: 1.4rem;
+      color: var(--Desaturated-blue);
+}
+
+.info .plan .pan-change p{
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--blue-buton);
+      text-decoration: underline;
+}
+
+.info .plan .pan-change p:hover{
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #766CF1;
+      text-decoration: underline;
+      cursor: pointer;
+}
+
+.payment{
+      display: flex;
+      flex-direction: column;
+}
+
+.payment button{
+      min-width: 27.9rem;
+      min-height: 5rem;
+      font-weight: 900;
+      background-color: var(--blue-buton);
+      box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+      border-radius: 11px;
+      border: none;
+      color: #FFF;
+      margin: 0px 24px 24px 24px;   
+}
+
+.payment button:hover{
+      min-width: 27.9rem;
+      min-height: 5rem;
+      font-weight: 900;
+      background-color: #766CF1;
+      box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+      border-radius: 11px;
+      border: none;
+      color: #FFF;
+      margin: 0px 24px 24px 24px;  
+      cursor: pointer; 
+}
+
+.payment p{
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--Desaturated-blue);
+}
+
+.payment p:hover{
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #1F2E55;
+      cursor: pointer;
+}
+
+
+
+

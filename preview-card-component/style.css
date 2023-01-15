@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --very-light-gray: hsl(0, 0%, 95%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+body{
+    padding:  1em;
+}
+
+section{
+    padding: 3em;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+section img{
+    margin-bottom: 2em;
+}
+
+section h2, section p{
+    margin-bottom: 1.6em;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+}
+
+section h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+section button{
+    background-color: var(--very-light-gray);
+    font-size: 15px;
+    padding: 12px 32px;
+    border: 2px solid var(--very-light-gray);
+    border-radius: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 8px 8px 0 0;
+}
+
+.sedans button {
+    background-color: var(--bright-orange);
+    color: var(--transparent-white);
+}
+
+.sedans button:hover{
+    background-color: white;
+    color: black;
+}
+
+.suvs{
+    background-color: var(--dark-cyan);
+}
+
+.suvs button{
+    background-color: var(--dark-cyan);
+    color: var(--transparent-white);
+}
+
+.suvs button:hover{
+    background-color: white;
+    color: black;
+}
+
+.luxury{
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 8px 8px;
+}
+
+.luxury button{
+    background-color: var(--very-dark-cyan);
+    color: var(--transparent-white);
+}
+
+
+.luxury button:hover{
+    background-color: white;
+    color: black;
+}
+
+/*
+.sedans {
+    background: var(--bright-orange);
+    border-radius: 8px 8px 0 0;
+}
+
+.sedans button {
+    color: var(--bright-orange);
+}
+
+.suvs {
+    background: var(--dark-cyan);
+}
+
+.suvs button {
+    color: var(--dark-cyan);
+}
+
+.luxury {
+    background: var(--very-dark-cyan);
+    border-radius: 0 0 8px 8px;
+}
+
+.luxury button {
+    color: var(--very-dark-cyan);
+}
+*/
+
+@media(min-width: 880px){
+
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main{
+        display: flex;
+        max-width: 920px;
+    }
+}
