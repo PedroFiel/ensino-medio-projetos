@@ -1,0 +1,60 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%; 
+    background-image: linear-gradient(#1A1761, rgb(43, 39, 155) , rgb(79, 74, 221));
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+main{
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: rgb(248, 242, 234);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+ul li{
+    font-size: 1.1em;
+    padding: 4px;
+}
+
+/*tabela*/
+
+.main_tit2{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 20px 10px;
+    color: white;
+}
+
+table, td, th{
+    border: solid 1px #000;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+thead, th{
+    background-color: rgba(0, 156, 156, 0.493);
+}
+
+th, td{
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+td{
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+#peso_adequado{
+    background-color: rgba(0, 255, 255, 0.253);
+    font-weight: bold;    
+}

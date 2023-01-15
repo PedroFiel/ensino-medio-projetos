@@ -1,0 +1,100 @@
+.header{
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.header .conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header .conteudo .logo img{
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+    color:#FFF;
+}
+
+.header .conteudo .conteudo_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.conteudo_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.conteudo_menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center
+}
+
+.conteudo_menu ul li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.conteudo_menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #DFECE6;
+}
+
+.sobre_curso{
+    margin: 15px 15px;
+}
+
+.sobre_curso h1{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.sobre_curso .um h2{
+    font-size: 1.25em;
+}
+
+
+.sobre_curso .um p{
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.sobre_curso .um ul li{
+    margin: 10px 20px;
+    max-width: 380px;
+}
+
+.sobre_curso .um .grade1{
+    display: inline-block;
+    flex-basis: 25%;
+
+}
+
+.sobre_curso .um .grade2{
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.sobre_curso .um .grade3{
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.footer_direitos{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F7F7F7;
+    border-top: 1px solid #EBEBEB;
+    font-size: 0.9;
+    color: #666;
+    font-weight: 300;
+}
